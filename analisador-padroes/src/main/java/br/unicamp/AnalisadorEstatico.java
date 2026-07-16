@@ -8,7 +8,7 @@ import java.io.File;
 public class AnalisadorEstatico {
     public static void main(String[] args) {
         try {
-            String caminho = "C:\\Users\\UNICAMP\\OneDrive\\Attachments\\DINAMICAP2\\analisador-padroes\\ControleDeDistribuicao.java";
+            String caminho = "analisador-padroes/ControleDeDistribuicao.java";
             File arquivo = new File(caminho);
             
             CompilationUnit cu = StaticJavaParser.parse(arquivo);
